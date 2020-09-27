@@ -17,6 +17,7 @@
 		E3CC562C2520DAE900FAC847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CC562A2520DAE900FAC847 /* LaunchScreen.storyboard */; };
 		E3CC56372520DAE900FAC847 /* WheatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC56362520DAE900FAC847 /* WheatherAppTests.swift */; };
 		E3CC56432520E72B00FAC847 /* Wheather.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC56422520E72B00FAC847 /* Wheather.swift */; };
+		E3CC56462520EE4000FAC847 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC56452520EE4000FAC847 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E3CC56362520DAE900FAC847 /* WheatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherAppTests.swift; sourceTree = "<group>"; };
 		E3CC56382520DAE900FAC847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3CC56422520E72B00FAC847 /* Wheather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheather.swift; sourceTree = "<group>"; };
+		E3CC56452520EE4000FAC847 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		ED951119A7A65736BA6DCBBB /* Pods-WheatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheatherApp.debug.xcconfig"; path = "Target Support Files/Pods-WheatherApp/Pods-WheatherApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +115,7 @@
 		E3CC561E2520DAE800FAC847 /* WheatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				E3CC56442520EE3700FAC847 /* NetworkService */,
 				E3CC56412520E70200FAC847 /* Model */,
 				E3CC561F2520DAE800FAC847 /* AppDelegate.swift */,
 				E3CC56212520DAE800FAC847 /* SceneDelegate.swift */,
@@ -140,6 +143,14 @@
 				E3CC56422520E72B00FAC847 /* Wheather.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E3CC56442520EE3700FAC847 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				E3CC56452520EE4000FAC847 /* NetworkService.swift */,
+			);
+			path = NetworkService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3CC56462520EE4000FAC847 /* NetworkService.swift in Sources */,
 				E3CC56242520DAE800FAC847 /* ViewController.swift in Sources */,
 				E3CC56432520E72B00FAC847 /* Wheather.swift in Sources */,
 				E3CC56202520DAE800FAC847 /* AppDelegate.swift in Sources */,
